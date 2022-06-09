@@ -36,7 +36,7 @@ ArrayAdapter<String>aaToDo;
         List=findViewById(R.id.List);
 
         alToDo=new ArrayList<>();
-        aaToDo=new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,alToDo);
+        aaToDo=new ArrayAdapter<>(this, R.layout.layout,alToDo);
         List.setAdapter(aaToDo);
         spnAddDlt.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
